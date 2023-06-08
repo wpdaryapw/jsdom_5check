@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>^-^</title>
+</head>
+<body>
+<div class="wrapper">
+    <main class="main">
+        <div class="container">
+            <div class="card">
+                <div class="card__wrapper">
+                    <div class="card__column">
+                        <div class="card__row">
+                            <div class="pictures">
+                                <div class="logo">
+                                    <img src="./src/img/master.png" alt="logo">
+                                </div>
+                                <div class="chip">
+                                    <img src="./src/img/chip.png" alt="logo">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__row">
+                            <div class="card-number_bloc">
+                                <div class="card-number__top">
+                                    номер карты
+                                </div>
+                                <div class="card-number">
+                                    <div class="card-number__item card__creating">1234</div>
+                                    <div class="card-number__item card__creating">5678</div>
+                                    <div class="card-number__item card__creating">9101</div>
+                                    <div class="card-number__item card__creating">1233</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__row">
+                            <div class="card-owner">
+                                <div class="card-name">
+                                    <div class="card-owner__top">
+                                        Имя владельца
+                                    </div>
+                                    <div class="card-owner__bottom card-owner__creating">
+                                        ### ###
+                                    </div>
+                                </div>
+                                <div class="card-code">
+                                    <div class="card-owner__top">
+                                        Код
+                                    </div>
+                                    <div class="card-owner__bottom card-code__creating">
+                                        240
+                                    </div>
+                                </div>
+                                <div class="card-date">
+                                    <div class="card-owner__top">
+                                        Срок действия
+                                    </div>
+                                    <div class="card-owner__bottom card-validity__creating">
+                                        01/24
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form class="form">
+                <div class="form__wrapper">
+                    <div class="inputs">
+                        <div class="input__row">
+                            <div class="input__wrapper">
+                                <label>Имя и Фамилия</label>
+                                <input type="text" name="name" maxlength="16">
+                            </div>
+                        </div>
+                        <div class="input__row">
+                            <div class="input__wrapper">
+                                <label>Номер карты</label>
+                                <input type="text" name="card" maxlength="19">
+                            </div>
+                        </div>
+                        <div class="input__row">
+                            <div class="input__wrapper">
+                                <label>Срок действия (мм.гг)</label>
+                                <input type="text" name="validity" maxlength="5">
+                            </div>
+                            <div class="input__wrapper">
+                                <label>Код</label>
+                                <input type="text" name="code" maxlength="3">
+                            </div>
+                        </div>
+                        <div class="input__row">
+                            <div class="input__wrapper">
+                                <select name="theme">
+                                    <option value="1">Черный</option>
+                                    <option value="2">1</option>
+                                    <option value="3">2</option>
+                                    <option value="4">3</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="input__row">
+                            <div class="input__wrapper">
+                                <button class="btn">Сохранить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+
+        </div>
+
+        <div class="cards">
+
+        </div>
+    </main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
